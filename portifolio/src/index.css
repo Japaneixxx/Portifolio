@@ -1,0 +1,47 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark hc;
+  color: #FFFFFF;
+  background-color: #070F13;
+  --textPrimary: #E0E7EB;
+  --textSecondary: #AABCC4;
+  --corSecundaria: #1193D4;
+  --accentColor: #34A0E0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: hc){
+
+}
+@media (prefers-color-scheme: dark) {
+  
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #FCFCFC;
+    background-color: #EAD1A3;
+  }
+
+}
